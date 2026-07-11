@@ -1,0 +1,120 @@
+:root{
+    --primary-color : #3498db;
+    --secondary-color : #2c3e50;
+    --success-color : #2ecc71;
+    /* --info-color : #3498db */
+    --warning-color : #f39c12;
+    --danger-color : #e74c3c;
+    --light-color : #ecf0f1;
+    /* --dark-color : #2c3e50; */
+    /* --accent-color : #f39c12; */
+}
+
+*{
+    box-sizing: border-box;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* body{
+  
+} */
+
+/* back to top button  */
+
+/* elfsight for viber chat  */
+
+/* start navbar  */
+.navbar{
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+}
+.scroll_cs{
+    background-color: rgba(10, 62, 80, .8);
+    }
+.logoname_cs{
+    /* text-decoration: none; */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* end navbar  */
+
+/* start banner */
+    #banner{
+        height: 100vh;
+        min-height: 100vh;
+        background: linear-gradient(135deg,var(--primary-color),var(--secondary-color));
+
+        position: relative;
+    }
+
+    .banner-content_cs{
+        color: #fff;
+        /* font-size: 12px; */
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+
+    }
+    .banner-content_cs .com-name{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .banner-content_cs h1{
+        font-size: 1.5rem;
+    }
+    .banner-content_cs h3{
+        font-weight: 400;
+        opacity: .9;
+    }
+    .banner-content_cs p{
+        opacity: .8;
+    }
+/* end banner */
+
+/* start animation for banner  */
+/* end animation for banner  */
+
+/* start clients  */
+/* end clients  */
+
+/* start software  */
+/* end software  */
+
+/* start public  */
+/* end public */
+
+/* start team */
+/* end team  */
+
+/* start pricing  */
+/* end pricing  */
+
+/* start contact  */
+/* end contact  */
+
+/* start footer  */
+/* end footer  */
+
+/* start modal box  */
+    /* start get in touch modal  */
+        .modal-header{
+            background: linear-gradient(135deg,var(--primary-color),var(--secondary-color));
+            color: #fff;
+            border: none;
+        }
+    /* end get in touch modal  */
+/* end modal box  */
+
+/* start responsive adjustment */
+/* end responsive adjustment */
+
