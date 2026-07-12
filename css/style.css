@@ -71,8 +71,10 @@
     }
     .banner-content_cs h1{
         font-size: 1.5rem;
+        font-weight: 500;
     }
     .banner-content_cs h3{
+        font-size: 1.5rem;
         font-weight: 400;
         opacity: .9;
     }
@@ -88,6 +90,13 @@
 /* end clients  */
 
 /* start software  */
+    .img_cs{
+        height: 100px;
+    }
+    .img_cs img{
+        height: 100%;
+        object-fit: cover;
+    }
 /* end software  */
 
 /* start public  */
