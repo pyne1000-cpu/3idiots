@@ -91,7 +91,7 @@
 
 /* start software  */
     .img_cs{
-        height: 100px;
+        height: 150px;
     }
     .img_cs img{
         height: 100%;
@@ -103,6 +103,34 @@
 /* end public */
 
 /* start team */
+.team_cs img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #2c3e50;
+    border-radius: 50%;
+}
+
+.team_cs h4,.team_cs h6{
+    font-weight: 800;
+}
+
+.team_cs p{
+    font-size: 12px;
+}
+
+.team_cs span{
+    font-weight: 700;
+}
+/* ***not now*** အခုမဆွဲသေးဘူး အချိန်မရလို့ */
+/* .team-socials_cs a{
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-align: center;
+} */
 /* end team  */
 
 /* start pricing  */
