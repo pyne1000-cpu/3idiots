@@ -68,7 +68,7 @@
                             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                         </ul>
                         <div class="">
-                            <a href="#" class="btn btn-outline-light btn-sm rounded-pill">Sign Up</a>
+                            <a href="#signupmodal" class="btn btn-outline-light btn-sm rounded-pill" data-bs-toggle="modal">Sign Up</a>
                         </div>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
             <div class="container">
                 <div class="sectiontitles">
                     <h2>Our Team</h2>
-                    <p>We have been navigating the AI era for over a decade, bringing extensive experience and a strong commitment to meeting our customers' needs.</p>
+                    <p>We have been navigating the AI era for over a couple of decades, bringing extensive experience and a strong commitment to meeting our customers' needs.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 mb-4">
@@ -459,14 +459,14 @@
             <div class="container">
                 <div class="sectiontitles">
                     <h2>Pricing</h2>
-                    <p></p>
+                    <p>Today, The Best Price For Our Customer Are Here!!!</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <div class="card-header text-center text-light">
+                            <div class="card-header text-center text-light pricing-header_cs">
                                 <h5>Blog Site</h5>
-                                <h6>0$<span>/month</span></h6>
+                                <h6 class="text-warning">0$<span>/month</span></h6>
                             </div>
                             <div class="card-body">
                                 <ul class="mb-3 pricing-list_cs">
@@ -484,9 +484,9 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <div class="card-header text-center text-light">
+                            <div class="card-header text-center text-light pricing-header_cs">
                                 <h5>Ecommerce Site</h5>
-                                <h6>9$<span>/month</span></h6>
+                                <h6 class="text-warning">9$<span>/month</span></h6>
                             </div>
                             <div class="card-body">
                                 <ul class="mb-3 pricing-list_cs">
@@ -503,9 +503,9 @@
                         </div>
                     </div><div class="col-md-4 mb-4">
                         <div class="card">
-                            <div class="card-header text-center text-light">
+                            <div class="card-header text-center text-light pricing-header_cs">
                                 <h5>Dynamic Site</h5>
-                                <h6>49$<span>/month</span></h6>
+                                <h6 class="text-warning">49$<span>/month</span></h6>
                             </div>
                             <div class="card-body">
                                 <ul class="mb-3 pricing-list_cs">
@@ -528,8 +528,56 @@
     
     
     <!-- Start Contact Section  -->
-        <section id="contact">
-
+        <section id="contacts" class="bg-light py-5">
+            <div class="container">
+                <div class="sectiontitles">
+                    <h2>Contact Us</h2>
+                    <p>We'd love to hear from you. Get in touch with us today</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                           <div class="card">
+                                <div class="card-header bg-primary text-light">
+                                    <h3>Our Location</h3>
+                                </div>
+                                <div class="card-body m-0 p-0 map-container_cs">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29725.53787406034!2d-77.04408718210058!3d38.897217520005896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC%2C%20USA!5e1!3m2!1sen!2smm!4v1783930461264!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                                </div>
+                                <div class="card-footer">
+                                    <p><i class="fa-solid fa-phone"></i> Phone : +95920104062</p>
+                                    <p><i class="fa-solid fa-envelope"></i> Email : Hello@gmail.com</p>
+                                    <p><i class="fa-solid fa-location-dot"></i> Location : American,Washington.D.C</p>
+                                </div>
+                           </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                       <div class="card">
+                            <div class="card-header bg-primary text-light">
+                                <h3>Got Questions?</h3>
+                            </div>
+                            <div class="card-body">
+                                 <form action="" method="">
+                                    <div class="mb-1">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" name="name" id="name" class="form-control"  required>
+                                    </div>
+                                    <div class="mb-1">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" name="email" id="email" class="form-control"  required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea name="message" id="message" class="form-control" style="height: 100px;" placeholder="Enter your message" required></textarea>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
         </section>
     <!-- End Contact Section  -->
 
@@ -581,6 +629,39 @@
             </div>
          </div>
         <!-- end get in touch modal  -->
+
+        <!-- start sign up modal -->
+         <div id="signupmodal" class="modal fade ">
+            <div class="modal-dialog modal-sm p-2">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Create Your Account</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="">
+                            <div class="mb-3">
+                                <label for="signupemail" class="form-label">Email</label>
+                                <input type="email" name="signupemail" id="signupemail" class="form-control" placeholder="Enter your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="signuppassword" class="form-label">Password</label>
+                                <input type="password" name="signuppassword" id="signuppassword" class="form-control" placeholder="Enter your Password" required>
+                            </div>
+                             <label for="cfmpassword" class="form-label">Confirm Password</label>
+                                <input type="password" name="cfmpassword" id="cfmpassword" class="form-control" placeholder="Confirm your Password" required>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" id="signupbtn" class="btn btn-primary w-100">Sign Up</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+         </div>
+        <!-- end sign up modal -->
 
     <!-- END MODAL AREA  -->
 

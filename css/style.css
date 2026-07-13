@@ -135,9 +135,17 @@
 /* end team  */
 
 /* start pricing  */
-.card-header{
+.pricing-header_cs{
     background: linear-gradient(135deg,var(--primary-color),var(--secondary-color));
     
+}
+
+.card-header h5,.card-header h6{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.card-header span{
+    color: #fff !important;
 }
 
 .pricing-list_cs{
@@ -157,6 +165,10 @@
 /* end pricing  */
 
 /* start contact  */
+.map-container_cs iframe{
+    width: 100%;
+    height:230px;
+}
 /* end contact  */
 
 /* start footer  */
