@@ -135,6 +135,25 @@
 /* end team  */
 
 /* start pricing  */
+.card-header{
+    background: linear-gradient(135deg,var(--primary-color),var(--secondary-color));
+    
+}
+
+.pricing-list_cs{
+    list-style: none;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.pricing-list_cs li{
+    border-bottom:1px solid #ddd ;
+    padding: 6px;
+}
+.pricing-list_cs li:last-child{
+    border: none;
+}
 /* end pricing  */
 
 /* start contact  */
