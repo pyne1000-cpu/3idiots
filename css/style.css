@@ -172,6 +172,19 @@
 /* end contact  */
 
 /* start footer  */
+.footer-subtitle_cs{
+    font-size: 1rem;
+    font-weight: 600;
+}
+footer p,footer li{
+    opacity: .7;
+}
+
+.quick-link_cs ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
 /* end footer  */
 
 /* start modal box  */
