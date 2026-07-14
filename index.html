@@ -29,7 +29,7 @@
 <body>
 
     <!-- back to top button  -->
-    <a href="#" class="btc_cs"><i class="fa-solid fa-angles-up"></i></a>
+    <a href="#" id="btc" class="btc_cs"><i class="fa-solid fa-angles-up"></i></a>
 
     <!-- elfsight for viber chat  -->
 
@@ -648,9 +648,6 @@
                                 <button type="submit" id="loginbtn" class="btn btn-primary w-100">Login</button>
                             </div>
                         </form>
-                        <div>
-
-                        </div>
                     </div>
                     <div class="modal-footer justify-content-center">
                         <p>Don't have an account?</p>
@@ -663,7 +660,7 @@
 
         <!-- start sign up modal -->
          <div id="signupmodal" class="modal fade ">
-            <div class="modal-dialog modal-sm p-2">
+            <div class="modal-dialog modal-sm">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5>Create Your Account</h5>
@@ -679,16 +676,15 @@
                                 <label for="signuppassword" class="form-label">Password</label>
                                 <input type="password" name="signuppassword" id="signuppassword" class="form-control" placeholder="Enter your Password" required>
                             </div>
-                             <label for="cfmpassword" class="form-label">Confirm Password</label>
+                            <div class="mb-3">
+                                <label for="cfmpassword" class="form-label">Confirm Password</label>
                                 <input type="password" name="cfmpassword" id="cfmpassword" class="form-control" placeholder="Confirm your Password" required>
                             </div>
                             <div class="mb-3">
                                 <button type="submit" id="signupbtn" class="btn btn-primary w-100">Sign Up</button>
                             </div>
                         </form>
-                        
                     </div>
-                   
                 </div>
             </div>
          </div>
@@ -829,12 +825,26 @@
         // console.log(year);
         autoyear.textContent = year;
 
+        const btc = document.getElementById('btc');
+        console.log(btc);
+
         const getnavbar = document.getElementById('navbar');
         console.log(getnavbar);
 
         window.addEventListener('scroll',function(){
             console.log(window.scrollY);
-            // if(window.scrollY)
+            if(window.scrollY > 300){
+                btc.style.opacity = .5;
+            }else{
+                btc.style.opacity = "0";
+            }
+
+            if(window.scrollY > 50){
+                getnavbar.classList.add("scroll_cs");
+            }else{
+                getnavbar.classList.remove("scroll_cs");
+
+            }
         })
 
      </script>
